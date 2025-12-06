@@ -180,3 +180,5 @@ EventSchema.index({ date: 1, mode: 1 });
 const Event = models.Event || model<IEvent>('Event', EventSchema);
 
 export default Event;
+
+
